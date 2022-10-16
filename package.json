@@ -1,0 +1,12 @@
+{
+  "name": "try-again",
+  "version": "1.0.0",
+  "description": "# NOTE APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Jonna Galarosa",
+  "license": "ISC"
+}
