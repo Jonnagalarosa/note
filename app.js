@@ -2,6 +2,7 @@ const add = require('./add')
 const read = require('./read')
 const present = require('./present')
 const del = require('./del')
+const update = require('./update')
 // get user input
 const cmd = process.argv
 
@@ -32,4 +33,14 @@ if(cmd[2] == 'delete') {
     // Add note to note.txt
     del (id, oldNote)
     console.log(del)
+}
+
+if(cmd[2] == 'update') {
+    // Build Object
+    const id = cmd[3]
+    // Get old note value
+    const oldNote = read()
+    // Add note to note.txt
+    del (id, oldNote)
+    console.log(update)
 }
